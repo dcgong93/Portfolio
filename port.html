@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Derek Gong</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="port.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        <script type="text/javascript">
+           $(document).ready(function(){
+
+                $('#port_cont, #test_cont, #cont_info').hide();
+           
+                $("#AbtBtn").click(function(){
+                    $("#about_cont").slideDown("slow")
+                });
+
+                $("#PrtBtn").click(function(){
+                   $("#port_cont").slideDown("slow")
+                });
+
+                $("#TstBtn").click(function(){
+                   $("#test_cont").slideDown("slow")
+                });
+
+                $("#CntBtn").click(function(){
+                   $("#cont_info").slideDown("slow")
+                });
+
+                $('#AbtHd').click(function(){
+                   $('#about_cont').slideToggle("slow") 
+                });
+
+                $('#PrtHd').click(function(){
+                   $('#port_cont').slideToggle("slow") 
+                });
+
+                $('#TstHd').click(function(){
+                   $('#test_cont').slideToggle("slow") 
+                });
+
+                $('#CntHd').click(function(){
+                   $('#cont_info').slideToggle("slow") 
+                });
+               
+            });
+        </script>
+    </head>
+    
+<!-- START OF BODY -->
+    
+    <body>
+        <div id="wrapper" class="container panel panel-info">
+            <div id="Navigation" class="navigation panel-heading">
+                <div class="center col-md-4">
+                    <a href="https://www.facebook.com/derek.gong.16" ><img class="mdimg" src="FB.png" alt="Facebook"></a>
+                    <a href="https://www.linkedin.com/in/derek-gong-ba1b08a8"><img class="mdimg" src="LI.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/dcgong93"><img class="mdimg" src="GH.png" alt="GitHub"></a>
+                    <a href="https://www.instagram.com/dewgong93/?hl=en"><img class="mdimg" src="IG.png" alt="Instagram"></a>
+                </div>
+                <div class="col-md-4">
+                    <h1 class="center">Derek Gong</h1>
+                </div>
+                <div class="col-md-4">
+                    <button id="AbtBtn" class="nav_but">About Me</button>
+                    <button id="PrtBtn" class="nav_but">Portfolio</button>
+                    <button id="TstBtn" class="nav_but">Testimonials</button>
+                    <button id="CntBtn" class="nav_but">Contact Info</button>
+                </div>
+            </div>
+
+<!-- BACKGROUND/PF IMAGE -->
+            
+            <div id="changeImg"> 
+                <img id="pf_pic" src="port%20pf.png" alt="Profile Picture">
+            </div>
+
+<!-- ABOUT ME -->
+                
+            <div id="About_Me" class="panel panel-info row">
+                <div id="AbtHd" class="panel-heading">
+                    <h1 class="center panel-title">About Me</h1>
+                </div>
+                <div id="about_cont" class="panel-body">
+                    <p class="center"> THIS PART IS ABOUT ME</p>
+                </div>
+            </div>
+
+<!-- PORTFOLIO -->
+
+            <div id="Portfolio" class="panel panel-info row">
+                <div id="PrtHd" class="panel-heading">
+                    <h1 class="center panel-title">Portfolio</h1>
+                </div>
+                <div id="port_cont" class="panel-body">
+                    <div class="center projects">
+                        <img class="work" src="ninja0.png">
+                        <img class="work" src="ninja1.png">
+                        <img class="work" src="ninja2.png">
+                        <img class="work" src="ninja3.png">
+                        <img class="work" src="ninja4.png">
+                    </div>
+                    <div class="center projects">
+                        <img class="work" src="ninja0.png">
+                        <img class="work" src="ninja1.png">
+                        <img class="work" src="ninja2.png">
+                        <img class="work" src="ninja3.png">
+                        <img class="work" src="ninja4.png">
+                    </div>
+                </div>
+            </div>
+
+<!-- TESTIMONIALS -->
+
+            <div id="Testimonials" class="panel panel-info row">
+                <div id="TstHd" class="panel-heading">
+                    <h1 class="center panel-title">Testimonials</h1>
+                </div>
+                <div id="test_cont" class="panel-body">
+                    <p class="center"> BLAH BLAH DEREK HASN'T EVEN COMPLETED ANYTHING BIG YET</p>
+                </div>
+            </div>
+
+<!-- CONTACT INFO -->
+            <div id="Contact_Info" class="panel panel-info row">
+                <div id="CntHd" class="panel-heading">
+                    <h1 class="center panel-title">Contact Info</h1>
+                </div>
+                <div id="cont_info" class="panel-body center">
+                    <div id="cont-col1" class="cont-col col-md-5">
+                        <div class="cont-row">
+                            <div class="subrow">
+                                <h4>Mailing Address</h4>
+                                <p>72 Newton St.
+                                    <br>San Francisco, CA 94112</p>
+                            </div>
+                            <div class="subrow">
+                                <h4>Phone Number</h4>
+                                <p>(415) 823.6487</p>
+                            </div>
+                        </div>
+                        <div class="cont-row">
+                            <h4>Social Media</h4>
+                            <div id="media">
+                                <a href="https://www.facebook.com/derek.gong.16"><img class="lgimg" src="FB.png" alt="Facebook"></a>
+                                <a href="https://www.linkedin.com/in/derek-gong-ba1b08a8"><img class="lgimg" src="LI.png" alt="LinkedIn"></a>
+                                <a href="https://github.com/dcgong93"><img class="lgimg" src="GH.png" alt="GitHub"></a>
+                                <a href="https://www.instagram.com/dewgong93/?hl=en"><img class="lgimg" src="IG.png" alt="Instagram"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cont-col2" class="cont-col col-md-7">
+                        <div id="CntFrm">
+                            <form action=" " method="post" id="CntMe" class="form-group">
+                                <h4 id="msg-col">Leave a message...</h4>
+                                <label>Name:
+                                    <input class="border" type="text" name="First_Name">
+                                </label>
+                                <label>Email:
+                                    <input class="border" type="email" name="email">
+                                </label>
+                                <br>
+                                <div class="form-group">
+                                    <label class="alnL">Message:</label>
+                                    <br>
+                                    <textarea class="border" rows="10" cols="70" name="message" placeholder="Type your message here..."></textarea>
+                                </div>
+                                <input id="SbmBtn" class="alnL" type="submit" value="submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
