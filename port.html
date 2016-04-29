@@ -13,35 +13,35 @@
                 $('#port_cont, #test_cont, #cont_info').hide();
            
                 $("#AbtBtn").click(function(){
-                    $("#about_cont").slideDown("slow")
+                    $("#about_cont").slideDown(600)
                 });
 
                 $("#PrtBtn").click(function(){
-                   $("#port_cont").slideDown("slow")
+                   $("#port_cont").slideDown(600)
                 });
 
                 $("#TstBtn").click(function(){
-                   $("#test_cont").slideDown("slow")
+                   $("#test_cont").slideDown(600)
                 });
 
                 $("#CntBtn").click(function(){
-                   $("#cont_info").slideDown("slow")
+                   $("#cont_info").slideDown(600)
                 });
 
                 $('#AbtHd').click(function(){
-                   $('#about_cont').slideToggle("slow") 
+                   $('#about_cont').slideToggle(600) 
                 });
 
                 $('#PrtHd').click(function(){
-                   $('#port_cont').slideToggle("slow") 
+                   $('#port_cont').slideToggle(600) 
                 });
 
                 $('#TstHd').click(function(){
-                   $('#test_cont').slideToggle("slow") 
+                   $('#test_cont').slideToggle(600) 
                 });
 
                 $('#CntHd').click(function(){
-                   $('#cont_info').slideToggle("slow") 
+                   $('#cont_info').slideToggle(600) 
                 });
                
             });
@@ -63,10 +63,10 @@
                     <h1 class="center">Derek Gong</h1>
                 </div>
                 <div class="col-md-4">
-                    <button id="AbtBtn" class="nav_but">About Me</button>
-                    <button id="PrtBtn" class="nav_but">Portfolio</button>
-                    <button id="TstBtn" class="nav_but">Testimonials</button>
-                    <button id="CntBtn" class="nav_but">Contact Info</button>
+                    <button id="AbtBtn" class="nav_but"><a href='#AbtMe'>About Me</a></button>
+                    <button id="PrtBtn" class="nav_but"><a href='#Prt'>Portfolio</a></button>
+                    <button id="TstBtn" class="nav_but"><a href='#Tst'>Testimonials</a></button>
+                    <button id="CntBtn" class="nav_but"><a href='#Cnt'>Contact Me</a></button>
                 </div>
             </div>
 
@@ -80,10 +80,12 @@
                 
             <div id="About_Me" class="panel panel-info row">
                 <div id="AbtHd" class="panel-heading">
-                    <h1 class="center panel-title">About Me</h1>
+                    <h1 class="center panel-title"><a name='AbtMe'>About Me</a></h1>
                 </div>
                 <div id="about_cont" class="panel-body">
-                    <p class="center"> THIS PART IS ABOUT ME</p>
+                    <p class="center">    Hello! My name is Derek Gong and I am a 22 year old UCSD graduate and aspiring developer. I enjoy finding new ways to constantly challenge myself in order to continue learning and growing. As a native of San Francisco, I've recently found my way back home where I am currently residing (except for while I'm at the Coding Dojo).</p>
+                    <p class="center">For as long as I can remember, I've always found an interest in the neverending new technologies. And seeing as how I'm from one of the greatest tech capitals in the world, I figure that there would be no better oppurtunity for me to learn more about it than right now! With the help of Coding Dojo, I am working on a diverse set of skills which range from the basics such HTML, CSS and Javascript to full stack programs like Python, MEAN, and Ruby.</p>
+                    <p class="center">So, if you are a in need of a full time web developer/programmer and like what you see, feel free to drop a message in the box below! </p>
                 </div>
             </div>
 
@@ -91,7 +93,7 @@
 
             <div id="Portfolio" class="panel panel-info row">
                 <div id="PrtHd" class="panel-heading">
-                    <h1 class="center panel-title">Portfolio</h1>
+                    <h1 class="center panel-title"><a name='Prt'>Portfolio</a></h1>
                 </div>
                 <div id="port_cont" class="panel-body">
                     <div class="center projects">
@@ -115,17 +117,17 @@
 
             <div id="Testimonials" class="panel panel-info row">
                 <div id="TstHd" class="panel-heading">
-                    <h1 class="center panel-title">Testimonials</h1>
+                    <h1 class="center panel-title"><a name='Tst'>Testimonials</a></h1>
                 </div>
                 <div id="test_cont" class="panel-body">
-                    <p class="center"> BLAH BLAH DEREK HASN'T EVEN COMPLETED ANYTHING BIG YET</p>
+                    <p class="center"> BLAH BLAH DEREK HASN'T EVEN COMPLETED SHIT YET</p>
                 </div>
             </div>
 
 <!-- CONTACT INFO -->
             <div id="Contact_Info" class="panel panel-info row">
                 <div id="CntHd" class="panel-heading">
-                    <h1 class="center panel-title">Contact Info</h1>
+                    <h1 class="center panel-title"><a name='Cnt'>Contact Me</a></h1>
                 </div>
                 <div id="cont_info" class="panel-body center">
                     <div id="cont-col1" class="cont-col col-md-5">

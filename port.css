@@ -5,7 +5,13 @@
     height: auto;
 }
 .panel-body {
-    min-height: 300px;
+    min-height: 250px;
+    width:auto;
+    border: 1px solid transparent;
+}
+#Navigation, #AbtHd, #PrtHd, #TstHd, #CntHd {
+    background-color: #0866a3;
+    color:white;
 }
 .center {
     text-align: center;
@@ -15,7 +21,8 @@
     width:40px;
     height:40px;
     padding:0;
-    border-radius: 5px;
+    border-radius: 20px;
+    border:2px solid #9da7b2;
 }
 .navigation {
     height:75px;
@@ -23,10 +30,13 @@
 }
 .nav_but {
     border-radius: 5px;
+    background-color: #9da7b2
     display: inline;
     list-style-type: none;
-    opacity: 0.75;
+    opacity: 0.85;
     padding:1px 5px;
+    color:white;
+    border:2px solid #9da7b2;
 }
 
 /*BACKGROUND IMAGE*/
@@ -58,12 +68,13 @@
 }
 input, textarea, .border {
     margin:5px;
-    border:2px solid black;
+    border:1px solid black;
     padding: 5px;
 }
 .lgimg {
     margin:5px;
-    border-radius: 8px;
+    border-radius: 25px;
+    border:2px solid #767c81;
 }
 #SbmBtn {
     opacity: 0.75;
